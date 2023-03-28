@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+header, footer {
+    background-color: #1F2937
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subTitle, li {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+}
+
+p {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.last, button {
+    background-color: #3882F6;
+
+}
+
+.secondTitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-family: light italic;
+}
+
+footer {
+    color: #F9FAF8;
+}

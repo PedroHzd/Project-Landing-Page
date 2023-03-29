@@ -1,22 +1,38 @@
 body {
     height: 100vh;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
 }
 
 header, footer {
+    flex: 1;
     background-color: #1F2937
 }
 
 .title {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
 }
 
 .subTitle, li {
     font-size: 18px;
     color: #E5E7EB;
     list-style: none;
+}
+
+.subTitle {
+    padding: 10px 0px 10px 0px;
+}
+
+.texting {
+    margin: 0px;
+    color: #1F2937;
+    justify-content: space-between;
+    font-size: 24px;
+    width: 250px;
+    padding: 15px;
 }
 
 p {
@@ -26,23 +42,45 @@ p {
 ul {
     padding: 0px;
     margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    display: inline-block;
+    padding: 8px 68px;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     margin: 0px;
+    color: #F9FAF8;
+    padding: 10px;
 }
 
 .last, button {
     background-color: #3882F6;
+    color: #F9FAF8;    
+}
 
+.buttonLast, button {
+    /* padding: 8px 68px; */
+    border-color: white;
+    border-radius: 8px;
+}
+
+.topB {
+    padding: 16px 0px;
 }
 
 .secondTitle {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    align-self: center;
+    padding: 40px;
 }
 
 .quote {
@@ -50,8 +88,94 @@ ul {
     font-size: 36px;
     color: #1F2937;
     font-family: light italic;
+    text-align: center;
+    padding: 100px;
 }
 
 footer {
     color: #F9FAF8;
+}
+
+.marin {
+    height: auto;
+    width: 500px;
+}
+
+img {
+    height: auto;
+    width: 250px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1F2937;
+    border-radius: 10px;
+}
+
+.top-portion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.mainStarter {
+    display: flex;
+    justify-content: space-between;;
+    padding: 25px 60px 60px 60px;
+}
+
+.Topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middleSection {
+    display: flex;
+    flex-direction: column;
+}
+
+content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+content section {
+    display: flex; 
+    flex-direction: column;
+}
+
+.quoteContainer {
+    display: flex;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.last p {
+    font-size: 30px;
+}
+
+.buttonLast {
+    font-size: 20px;
+}
+
+.action div {
+    display: flex;
+    align-content: center;
+}
+
+.idk {
+    margin: 40px 60px 40px 60px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
 }
